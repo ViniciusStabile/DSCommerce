@@ -1,6 +1,7 @@
 package DSCommerce.repositories;
 
 import java.util.List;
+import java.util.Optional;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
@@ -18,5 +19,8 @@ public interface UserRepository extends JpaRepository<User, Long> {
 					WHERE tb_user.email = :email
 				""")
 		List<UserDetailsProjection> searchUserAndRolesByEmail(String email);
-	}
+	
+	
+Optional<User> findByEmail(String email);
 
+}
