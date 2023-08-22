@@ -125,11 +125,13 @@ public class User implements UserDetails{
 			}
 		}
 		return false;
+		
 	}
 
 	public List<Order> getOrders() {
 		return orders;
 	}
+	
 
 	@Override
 	public int hashCode() {
