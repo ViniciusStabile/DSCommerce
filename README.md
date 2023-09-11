@@ -4,7 +4,7 @@ Bem-vindo ao Projeto Simulado de E-Commerce! Este projeto é uma simulação de 
 
 ## Visão Geral
 
-O Projeto DSCommerce é uma aplicação web que simula um ambiente de compras online. Os usuários podem navegar por produtos, categorias e pedidos, adicioná-los ao carrinho e finalizar pedidos simulados.
+O Projeto DSCommerce é uma aplicação web que simula um ambiente de compras online. Os usuários podem ver a lista de produtos, categorias e pedidos, usuarios autorizados podem adicionar novos produtos, deletar e atualizar.
 
 ## Funcionalidades
 
